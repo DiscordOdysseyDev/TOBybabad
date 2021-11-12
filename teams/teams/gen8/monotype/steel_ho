@@ -1,55 +1,55 @@
-Scizor @ Choice Band  
-Ability: Technician  
-EVs: 252 Atk / 8 SpD / 248 Spe  
-Hasty Nature  
+Dragalge @ Assault Vest  
+Ability: Adaptability  
+EVs: 116 HP / 140 SpA / 252 SpD  
+Modest Nature  
+- Sludge Wave  
+- Flip Turn  
+- Draco Meteor  
+- Dragon Pulse  
+
+Dragapult @ Choice Scarf  
+Ability: Infiltrator  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Dragon Darts  
+- Phantom Force  
 - U-turn  
-- Bullet Punch  
-- Dual Wingbeat  
-- Knock Off  
+- Psychic Fangs  
 
-Aegislash @ Leftovers  
-Ability: Stance Change  
-EVs: 252 HP / 4 SpA / 252 SpD  
-Calm Nature  
+Kyurem @ Choice Specs  
+Ability: Pressure  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
 IVs: 0 Atk  
-- Substitute  
-- Toxic  
-- King's Shield  
-- Shadow Ball  
-
-Heatran @ Leftovers  
-Ability: Flash Fire  
-EVs: 252 HP / 216 SpD / 40 Spe  
-Calm Nature  
-IVs: 0 Atk  
-- Protect  
-- Lava Plume  
+- Freeze-Dry  
+- Draco Meteor  
 - Earth Power  
-- Toxic  
+- Flash Cannon  
 
-Celesteela @ Leftovers  
-Ability: Beast Boost  
-EVs: 252 HP / 252 Def / 4 SpD  
-Relaxed Nature  
-- Protect  
-- Heavy Slam  
+Hydreigon @ Life Orb  
+Ability: Levitate  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Dark Pulse  
+- Draco Meteor  
+- Earth Power  
 - Flamethrower  
-- Leech Seed  
 
-Melmetal @ Choice Band  
-Ability: Iron Fist  
-EVs: 240 HP / 252 Atk / 16 Spe  
-Adamant Nature  
-- Double Iron Bash  
-- Earthquake  
-- Thunder Punch  
-- Superpower  
-
-Excadrill @ Choice Scarf  
-Ability: Mold Breaker  
+Dracozolt @ Choice Scarf  
+Ability: Hustle  
 EVs: 252 Atk / 4 SpD / 252 Spe  
 Jolly Nature  
 - Earthquake  
+- Bolt Beak  
+- Outrage  
+- Low Kick  
+
+Garchomp @ Choice Scarf  
+Ability: Rough Skin  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Earthquake  
+- Outrage  
 - Iron Head  
-- Toxic  
-- Rock Slide
+- Poison Jab
