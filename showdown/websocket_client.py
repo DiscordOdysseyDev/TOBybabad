@@ -126,6 +126,13 @@ class PSWebsocketClient:
             msg = await self.receive_message()
             split_msg = msg.split('|')
             if (
+                len(split_msg) == 6 and
+                split_msg[1] == "popup" and
+                split_msg[3] == "html" and
+                split_msg[4].contains("locked")
+            ):
+                self.username = "‽"+self.username
+            if (
                 len(split_msg) == 9 and
                 split_msg[1] == "pm" and
                 split_msg[3].strip() == self.username and
