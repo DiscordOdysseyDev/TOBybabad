@@ -131,6 +131,7 @@ class PSWebsocketClient:
                 split_msg[3] == "html" and
                 split_msg[4].contains("locked")
             ):
+                logger.debug("I am locked, adding prefix to name...")
                 self.username = "‽"+self.username
             if (
                 len(split_msg) == 9 and
