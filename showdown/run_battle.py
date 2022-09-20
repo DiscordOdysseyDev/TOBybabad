@@ -186,3 +186,5 @@ async def pokemon_battle(ps_websocket_client, pokemon_battle_type):
             if action_required and not battle.wait:
                 best_move = await async_pick_move(battle)
                 await ps_websocket_client.send_message(battle.battle_tag, best_move)
+            else:
+                print("Waiting...")
