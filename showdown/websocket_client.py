@@ -133,7 +133,14 @@ class PSWebsocketClient:
                 split_msg[5] == battle_format
             ):
                 username = split_msg[2].strip()
-
+            elif(
+                len(split_msg) == 9 and
+                split_msg[1] == "pm" and
+                not split_msg[3].strip() == self.username and
+                split_msg[4].startswith("/challenge") and
+                split_msg[5] == battle_format
+            ):
+              logger.debug("Rejecting challenge from {} to {}".format(split_msg[2].strip(), split_msg[3].strip()))
         message = ["/accept " + username]
         await self.send_message('', message)
 
